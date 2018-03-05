@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Nerds</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main-header inner-header">
+		<nav class="main-nav">
+			<h1 class="index-logo">
+				<a href="index.html"><img src="image/index-logo.png" alt="Nerds" width="160" height="65"></a>
+			</h1>
+			<ul class="main-menu">
+				<li><a href="#">Студия</a></li>
+				<li><a href="#">Клиенты</a></li>
+				<li class="active"><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<ul class="user-block">
+				<li><a href="#" class="login">Корзина</a></li>
+			</ul>
+		</nav>
+		<section class="header-content">
+			<h2>Магазин готовых шаблонов</h2>
+		</section>
+	</header>
+	<main class="inner-main">
+		<section class="inner-content">
+			<aside class="catalog-aside">
+				<form action="formdata.php" method="get">
+					<h3 class="catalog-filter-title">Стоимость:</h3>
+					<div class="catalog-filter">
+						<div class="range-controls">
+							<div class="scale">
+								<div class="bar" style="width: 70%;"></div>
+							</div>
+							<div class="toogle min-toogle"></div>
+							<div class="toogle max-toogle"></div>
+						</div>
+						<div class="price-controls">
+							От<input type="text" class="min-price" value="0">
+							До<input type="text" class="max-price" value="15 000">
+						</div>
+					</div>
+					<h3 class="input-title">Сетка:</h3>
+					<input type="radio" name="grid" id="rd1" checked>
+					<label for="rd1">Адаптивная</label>
+					<input type="radio" name="grid" id="rd2">
+					<label for="rd2">Фиксированная</label>
+					<input type="radio" name="grid" id="rd3">
+					<label for="rd3">Резиновая</label>
+					<h3 class="input-title check-title">Особенности:</h3>
+					<input type="checkbox" id="ch1" value="slider" checked>
+					<label for="ch1"><span>Слайдер</span></label>
+					<input type="checkbox" id="ch2" value="features-block">
+					<label for="ch2"><span>Блок преимуществ</span></label>
+					<input type="checkbox" id="ch3" value="news" checked>
+					<label for="ch3"><span>Новости</span></label>
+					<input type="checkbox" id="ch4" value="gallery">
+					<label for="ch4"><span>Галерея</span></label>
+					<input type="checkbox" id="ch5" value="basket">
+					<label for="ch5"><span>Корзина</span></label>
+					<a href="#" class="btn aside-btn">Показать</a>
+				</form>
+			</aside>
+			<section class="catalog-content">
+				<nav class="catalog-sorting">
+						<b class="catalog-sorting-title">Сортировать:</b>
+						<ul class="sorting-list">
+							<li><a href="#" class="current">По цене</a></li>
+							<li><a href="#">По типу</a></li>
+							<li><a href="#">По названию</a></li>
+							<li><a href="#" class="current">&#9660;</a></li>
+							<li><a href="#">&#9650;</a></li>
+						</ul>
+				</nav>
+				<ul class="catalog-list">
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/sedona.jpg" alt="sedona" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">Sedona</h2>
+								<p>Информационный сайт<br>
+								 для туристов</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/pink.jpg" alt="pink" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">Pink App</h2>
+								<p>Продкутовый лендинг приложения для iOs и Android</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/barbershop.jpg" alt="barbershop" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">Barbershop</h2>
+								<p>Сайт салона красоты. Для мужчин, да.</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/mishka.jpg" alt="mishka" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">Mishka</h2>
+								<p>Интернет-магазин вязаных игрушек</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/aplus.jpg" alt="aplus" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">A Plus</h2>
+								<p>Лендинг курсов повышения квалификации</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+					<li class="catalog-item">
+						<a href="#">
+							<ul class="item-decoration">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<img src="image/catalog-image/kvast.jpg" alt="kvast" width="360" height="576">
+							<div class="item-price">
+								<h2 class="price-title">Кваст</h2>
+								<p>Промо-сайт производителя крафтового кваса</p>
+								<a href="#" class="btn price-btn">9 900 руб.</a>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="pagination">
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#" class="btn pag-btn">Следующая</a></li>
+				</ul>	
+			</section>
+		</section>
+		<section class="index-map">
+			<div class="container">
+				<div class="map-marker">
+					<img src="image/map-marker.png" alt="marker">
+				</div>
+				<article class="nerds-contacts">
+					<h1>Nerds Design Studio</h1>
+					<p>
+						191186, Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8<br>
+						<br>
+						<span class="contacts-phone">тел. +7 (812) 275-75-75</span>
+					</p>
+					<button type="button" class="btn contacts-btn pink">Напишите нам</button>
+					<div class="popap">
+						<h3 class="popap-title">Напишите нам</h3>
+						<form action="formdata.php" method="post" class="popap-form">
+							<label for="popap-name">Ваше имя:</label>
+							<label for="popap-mail">Ваш e-mail</label><br>
+							<input type="text" id="popap-name" placeholder="Представьтесь, пожалуйста">
+							<input type="text" id="popap-mail" placeholder="Для отправки ответа" class="popap-mail">
+							<label for="popap-text">Текст письма:</label>
+							<textarea name="" id="popap-text" cols="0" rows="5">В свободной форме</textarea>
+							<button type="submit" class="btn">Отправить</button>
+							<button class="close-btn" type="button">&times;</button>
+						</form>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<ul class="socials">
+				<li><a href="http://vk.com" target="_blank" class="social-btn social-vk pink">Вконтакте</a></li>
+				<li><a href="https://facebook.com/" target="_blank" class="social-btn social-fb pink">Фейсбук</a></li>
+				<li><a href="https://www.instagram.com" target="_blank" class="social-btn social-inst pink">Инстаграм</a></li>
+			</ul>
+			<div class="attraction">
+				<h3>Давайте дружить, это выгодно!</h3>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var link = document.querySelector(".contacts-btn");
+		var popap = document.querySelector(".popap");
+		var close = document.querySelector(".close-btn");
+
+		link.addEventListener("click" , function(event) {
+			event.preventDefault();
+			popap.classList.add("popap-show");
+		});
+		close.addEventListener("click" , function(event) {
+			event.preventDefault();
+			popap.classList.remove("popap-show");
+		})
+
+	</script>
+</body>
+</html>
